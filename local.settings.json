@@ -1,0 +1,8 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "FUNCTIONS_WORKER_RUNTIME": "node",
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=aashistorage;AccountKey=/zy03QhnuYv2JqxGVy4Vv9uHAn0pJhHjmEuErHA8G7ayCwUdIi4Hm6qyIPXaz/51fKTYeKhhejuT+AStY2p9eQ==;EndpointSuffix=core.windows.net"
+  }
+}
+
