@@ -41,7 +41,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: node-app
-          path: .
+          path: ./src
 
   deploy:
     runs-on: windows-latest
@@ -60,4 +60,5 @@ jobs:
           app-name: 'aashi-test-func-app'
           slot-name: 'Production'
           package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
+
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B08349C3D57F4A01BE2013DD9C7B8250 }}
